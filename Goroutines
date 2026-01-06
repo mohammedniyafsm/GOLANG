@@ -1,0 +1,21 @@
+# 🧵 Goroutines in Go
+
+## 📌 What is a Goroutine?
+
+A **goroutine** is a lightweight thread managed by the **Go runtime**.
+
+> Goroutines allow Go programs to run multiple functions **concurrently**.
+
+They are:
+- Very cheap to create
+- Faster than OS threads
+- Managed by Go scheduler
+
+---
+
+## 🧠 Why Goroutines?
+
+Without goroutines, programs run **sequentially**:
+
+```bash
+Task 1 → Task 2 → Task 3
